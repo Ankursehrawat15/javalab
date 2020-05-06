@@ -15,6 +15,6 @@ public void modules(int b)
 { mod=b; }
 void disp()
 {
-
-
-
+System.out.println("Name :"+name);
+System.out.println("Division :"+div);
+System.out.println("Modules :"+mod);
