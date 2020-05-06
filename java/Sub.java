@@ -22,7 +22,8 @@ System.out.println("Modules :"+mod);
 }
 class sub
 {
-
+  public static void main(String args[])
+{ stud s=new stud();
 
 
 
