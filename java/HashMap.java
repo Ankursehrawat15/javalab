@@ -11,3 +11,4 @@ map.put("Aayush", 10);
 map.put("Brock", 25);
 map.put("Kriti", 40);
 System.out.println();
+String key = "Ankur";
