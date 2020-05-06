@@ -8,6 +8,6 @@ class stud implements course
 String name;
 int div,mod;
 void name(String n)
+{ name=n; }
 
-}
 
