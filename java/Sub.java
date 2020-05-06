@@ -24,6 +24,13 @@ class sub
 {
   public static void main(String args[])
 { stud s=new stud();
+s.name("ANKURSEHRAWAT");
+s.division(10);
+s.modules(25);
+s.disp();
+}
+}
+
 
 
 
