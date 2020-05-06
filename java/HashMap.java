@@ -12,3 +12,6 @@ map.put("Brock", 25);
 map.put("Kriti", 40);
 System.out.println();
 String key = "Ankur";
+if (map.containsKey(key)) 
+{
+Integer a = map.get(key); 
