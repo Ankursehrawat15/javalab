@@ -19,4 +19,10 @@ void compay(int hours)
 System.out.println(s_rate*40);
 }
 }
+class Work
+{
+public static void main(String args[])
+{
+
+
 
