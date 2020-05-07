@@ -49,5 +49,23 @@ hockey_player(String n, String t,int a)
 super(n,a);
 type=t;
 }
-
+public void show()
+{
+super.show();
+System.out.println("Player plays : "+type);
+}
+}
+// main
+class Player
+{
+public static void main(String args[])
+{
+cricketer c1 = new cricketer("Virat","Cricket",30);
+football_player c2 = new football_player("Mbappe","Football",20);
+hockey_player c3 = new hockey_player("Salah","Hockey",25);
+c1.show();
+c2.show();
+c3.show();
+}
+}
 }
