@@ -12,3 +12,11 @@ void compay(int hours)
 System.out.println(s_rate*hours);
 }
 }
+class salaried_worker extends worker
+{
+void compay(int hours)
+{
+System.out.println(s_rate*40);
+}
+}
+
