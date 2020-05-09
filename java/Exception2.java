@@ -12,4 +12,8 @@ System.out.println(result);
 int result = num1 / num2;
 System.out.println(result);
 } catch (ArithmeticException e) 
-{ 
+{
+System.out.println("A number can not be divided by 0");
+}
+}
+
