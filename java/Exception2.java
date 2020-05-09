@@ -7,4 +7,7 @@ Scanner in = new Scanner(System.in);
 num1 = in.nextInt();
 num2 = in.nextInt();
 try { // here it will throw exception
-
+int result = num1 / num2;
+System.out.println(result);
+int result = num1 / num2;
+System.out.println(result);
