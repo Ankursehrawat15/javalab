@@ -17,3 +17,11 @@ System.out.println("A number can not be divided by 0");
 }
 }
 
+public class Exception2 {
+public static void main(String[] args) {
+demoexception obj = new demoexception();
+obj.dividefunction();
+}
+}
+  
+
