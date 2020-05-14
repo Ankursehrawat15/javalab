@@ -9,13 +9,7 @@ public interface IList<E> extends Iterable<E>{
 	
 	E set(int pos, E item);
 
-	/**
-	 * Get an element from the list.
-	 * <br>pre: 0 <= pos < size()
-	 * <br>post: return the item at pos
-	 * @param pos specifies which element to get
-	 * @return the element at the specified position in the list
-	 */
+	
 	E get(int pos);
 
 
