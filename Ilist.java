@@ -6,16 +6,7 @@ public interface IList<E> extends Iterable<E>{
 	
 	void insert(int pos, E item);
 
-	/**
-	 * Change the data at the specified position in the list.
-	 * the old data at that position is returned.
-	 * <br>pre: 0 <= pos < size()
-	 * <br>post: get(pos) = item, return the
-	 * old get(pos)
-     * @param pos the position in the list to overwrite	 
-	 * @param item the new item that will overwrite the old item
-	 * @return the old data at the specified position
-	 */
+	
 	E set(int pos, E item);
 
 	/**
