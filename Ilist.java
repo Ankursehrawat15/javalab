@@ -13,14 +13,7 @@ public interface IList<E> extends Iterable<E>{
 	E get(int pos);
 
 
-	/**
-	 * Remove an element in the list based on position.
-	 * <br>pre: 0 <= pos < size()
-	 * <br>post: size() = old size() - 1, all elements of
-	 * list with a positon > pos have a position = old position - 1
-	 * @param pos the position of the element to remove from the list
-	 * @return the data at position pos
-	 */
+	
 	E remove(int pos);
 	
 	/**
