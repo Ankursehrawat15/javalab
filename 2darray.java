@@ -3,11 +3,7 @@ import java.awt.Color;
 
 public class FilterExample
 {
-	/*
-	 *pre: image != null, image.length > 1, image[0].length > 1
-	 *	image is a rectangular matrix, neighberhoodSize > 0
-	 *post: return a smoothed version of image
-	 */
+	
 	public Color[][] smooth(Color[][] image, int neighberhoodSize)
 	{	//check precondition
 		assert image != null && image.length > 1 && image[0].length > 1
@@ -26,8 +22,7 @@ public class FilterExample
 	}
 
 
-	// helper method that determines the average color of a neighberhood
-	// around a particular cell.
+	
 	private Color aveOfNeighbors(Color[][] image, int row, int col, int neighberhoodSize)
 	{	int numNeighbors = 0;
 		int red = 0;
@@ -49,13 +44,12 @@ public class FilterExample
 		return new Color( red / numNeighbors, green / numNeighbors, blue / numNeighbors );
 	}
 
-	//helper method to determine if given coordinates are in bounds
 	private boolean inBounds(Color[][] image, int row, int col)
 	{	return (row >= 0) && (row <= image.length) && (col >= 0)
 				&& (col < image[0].length);
 	}
 
-	//private method to ensure mat is rectangular
+
 	private boolean rectangularMatrix( Color[][] mat )
 	{	boolean isRectangular = true;
 		int row = 1;
