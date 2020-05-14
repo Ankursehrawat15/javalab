@@ -8,7 +8,7 @@ void meth2();  //Overriding the method in A ??
 }
 class MyClass implements B {
 public void meth1() {
-System.out.println("Implement meth1().");
+System.out.println("Implementing meth1().");
 }
 public void meth2() 
 {
