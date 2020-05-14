@@ -16,45 +16,16 @@ public interface IList<E> extends Iterable<E>{
 	
 	E remove(int pos);
 	
-	/**
-	 * Remove the first occurrence of obj in this list.
-	 * Return <tt>true</tt> if this list changed as a result of this call, <tt>false</tt> otherwise.
-	 * <br>pre: none
-	 * <br>post: if obj is in this list the first occurence has been removed and size() = old size() - 1. 
-	 * If obj is not present the list is not altered in any way.
-	 * @param obj The item to remove from this list.
-	 * @return Return <tt>true</tt> if this list changed as a result of this call, <tt>false</tt> otherwise.
-	 */
+	
 	boolean remove(E obj);
 	
-	/**
-	 * Return a sublist of elements in this list from <tt>start</tt> inclusive to <tt>stop</tt> exclusive.
-	 * This list is not changed as a result of this call.
-	 * <br>pre: <tt>0 <= start < size(), start <= stop <= size()</tt>
-	 * <br>post: return a list whose size is stop - start and contains the elements at positions start through stop - 1 in this list.
-	 * @param start index of the first element of the sublist.
-	 * @param stop stop - 1 is the index of the last element of the sublist.
-	 * @return a list with <tt>stop - start</tt> elements, The elements are from positions <tt>start</tt> inclusive to
-	 * <tt>stop</tt> exclusive in this list.
-	 */
+	
 	IList<E> getSubList(int start, int stop);
 
-	/**
-	 * Return the size of this list. In other words the number of elements in this list.
-	 * <br>pre: none
-	 * <br>post: return the number of items in this list
-	 * @return the number of items in this list
-	 */
+	
 	int size();
 
-	/**
-	 * Find the position of an element in the list.
-	 * <br>pre: none
-	 * <br>post: return the index of the first element equal to item
-	 * or -1 if item is not present
-	 * @param item the element to search for in the list
-	 * @return return the index of the first element equal to item or a -1 if item is not present
-	 */
+	
 	int indexOf(E item);
 
 	/**
@@ -101,11 +72,6 @@ public interface IList<E> extends Iterable<E>{
      */
     public String toString();
     
-    /**
-     * Determine if this IList is equal to other. Two
-     * ILists are equal if they contain the same elements
-     * in the same order.
-     * @return true if this IList is equal to other, false otherwise
-     */
+   
     public boolean equals(Object other);
 }
