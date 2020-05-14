@@ -1,21 +1,9 @@
 public interface IList<E> extends Iterable<E>{
 
-	/**
-	 * Add an item to the end of this list.
-	 * <br>pre: none
-	 * <br>post: size() = old size() + 1, get(size() - 1) = item
-	 * @param item the data to be added to the end of this list
-	 */
+	
 	void add(E item);
 
-	/**
-	 * Insert an item at a specified position in the list.
-	 * <br>pre: 0 <= pos <= size()
-	 * <br>post: size() = old size() + 1, get(pos) = item, all elements in
-	 * the list with a positon >= pos have a position = old position + 1
-	 * @param pos the position to insert the data at in the list
-	 * @param item the data to add to the list
-	*/
+	
 	void insert(int pos, E item);
 
 	/**
