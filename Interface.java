@@ -27,6 +27,6 @@ class Interface
 public static void main(String [] args)
 {
 ToTestInt x= new ToTestInt();
-System.out.println("\nThe square of 64 is "+x.return_ans(64));
+System.out.println("\nThe square of 64 is "+x.return_ans(641));
 }
 }
