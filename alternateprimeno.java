@@ -29,10 +29,10 @@ class JavaExample
 
 	for(int num = 2; num <= n-1; num++) 
 	{ 
-	   //checking each number whether it is prime or not
+	   
 	   if (checkPrime(num) == 1) 
 	   {  
-		// if temp is even then only print the prime number
+		   
 		if (temp % 2 == 0) 
 		   System.out.print(num + " "); 
 
@@ -41,10 +41,4 @@ class JavaExample
 	} 
     } 
 
-    public static void main(String[] args)  
-    { 
-	int num = 20; 
-	System.out.print("Alternate prime numbers upto " + num+" are: ");  
-	printAltPrime(num); 
-    } 
-}
+    
