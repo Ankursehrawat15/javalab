@@ -20,4 +20,8 @@ class data extends item implements Runnable
 item d=this;
 Thread t;
 data()
+{
+t=new Thread(this);
+t.start();
+}
 
