@@ -40,5 +40,12 @@ class JavaExample
 	   } 
 	} 
     } 
+	public static void main(String[] args)  
+    { 
+	int num = 20; 
+	System.out.print("Alternate prime numbers upto " + num+" are: ");  
+	printAltPrime(num); 
+    } 
+}
 
     
