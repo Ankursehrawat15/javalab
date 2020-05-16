@@ -46,13 +46,13 @@ public class AirlineProblem {
             ArrayList<String> pathForMiles, ArrayList<String> airlinesVisited,
             ArrayList<Airline> network){
         if(current.equals(goal)){
-            //base case 1, I have found a path!
+            
             pathForMiles.add(current);
             return true;
         }
         else if(airlinesVisited.contains(current))
-            // base case 2, I have already been here
-            // don't go into a cycle
+           
+        
             return false;
         else{
             // I have not been here and it isn't
