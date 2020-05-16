@@ -1,5 +1,5 @@
 public class CreateList {  
-    //Represents the node of list.  
+    
     public class Node{  
         int data;  
         Node next;  
@@ -8,13 +8,13 @@ public class CreateList {
         }  
     }  
   
-    //Declaring head and tail pointer as null.  
+    
     public Node head = null;  
     public Node tail = null;  
   
-    //This function will add the new node at the end of the list.  
+    
     public void add(int data){  
-        //Create new node  
+      
         Node newNode = new Node(data);  
         //Checks if the list is empty.  
         if(head == null) {  
