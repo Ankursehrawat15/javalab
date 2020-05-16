@@ -40,4 +40,24 @@ public class CreateList {
             System.out.println("List is empty");  
         }  
         else {  
-           
+            System.out.println("Nodes of the circular linked list: ");  
+             do{  
+                  
+                System.out.print(" "+ current.data);  
+                current = current.next;  
+            }while(current != head);  
+            System.out.println();  
+        }  
+    }  
+  
+    public static void main(String[] args) {  
+        CreateList cl = new CreateList();  
+        //Adds data to the list  
+        cl.add(1);  
+        cl.add(2);  
+        cl.add(3);  
+        cl.add(4);  
+        
+        cl.display();  
+    }  
+}  
