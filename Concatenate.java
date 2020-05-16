@@ -15,5 +15,12 @@ public static void main(String[] args) {
         }
 
       
+  for (int element : array2) {
+            result[pos] = element;
+            pos++;
+        }
 
+        System.out.println(Arrays.toString(result));
+    }
+}
     
