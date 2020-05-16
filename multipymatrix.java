@@ -28,6 +28,11 @@ System.out.println("Enter elements of first matrix");
     {
       int second[][] = new int[p][q];
       int multiply[][] = new int[m][q];
+ System.out.println("Enter elements of second matrix");
+ 
+      for (c = 0; c < p; c++)
+        for (d = 0; d < q; d++)
+          second[c][d] = in.nextInt();
  
       
  
