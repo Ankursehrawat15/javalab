@@ -26,14 +26,14 @@ public class CreateList {
         else {  
             //tail will point to new node.  
             tail.next = newNode;  
-            //New node will become new tail.  
+            
             tail = newNode;  
-            //Since, it is circular linked list tail will point to head.  
+              
             tail.next = head;  
         }  
     }  
   
-    //Displays all the nodes in the list  
+    
     public void display() {  
         Node current = head;  
         if(head == null) {  
@@ -42,7 +42,7 @@ public class CreateList {
         else {  
             System.out.println("Nodes of the circular linked list: ");  
              do{  
-                //Prints each node by incrementing pointer.  
+                  
                 System.out.print(" "+ current.data);  
                 current = current.next;  
             }while(current != head);  
@@ -57,7 +57,7 @@ public class CreateList {
         cl.add(2);  
         cl.add(3);  
         cl.add(4);  
-        //Displays all the nodes present in the list  
+        
         cl.display();  
     }  
 }  
