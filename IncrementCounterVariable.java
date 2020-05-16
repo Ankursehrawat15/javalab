@@ -11,27 +11,4 @@ data d7=new data();
 data d8=new data();
 data d9=new data();
 data d10=new data();
-System.out.println(d10.count);
-}
-}
-class item { static int count=0; }
-class data extends item implements Runnable
-{
-item d=this;
-Thread t;
-data()
-{
-t=new Thread(this);
-t.start();
-}
-public void run()
-{ d=sync.increment(d); }
-}
-class sync
-{
-synchronized static item increment(item i)
-{
-i.count++;
-return(i);
-}
-}
+
