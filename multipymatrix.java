@@ -11,4 +11,6 @@ class MatrixMultiplication
     m = in.nextInt();
     n = in.nextInt();
  
+    int first[][] = new int[m][n];
+ 
     
