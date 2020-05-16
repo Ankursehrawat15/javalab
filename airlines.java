@@ -73,7 +73,7 @@ public class AirlineProblem {
             if( pos == - 1)
                 return false;
             
-            // loop through partners
+            
             index = 0;
             String[] partners = network.get(pos).getPartners();
             boolean foundPath = false;
@@ -91,7 +91,7 @@ public class AirlineProblem {
         private String name;
         private ArrayList<String> partners;
         
-        //pre: data != null, data.length > 0
+      
         public Airline(String[] data){
             assert data != null && data.length > 0 : "Failed precondition";
             name = data[0];
