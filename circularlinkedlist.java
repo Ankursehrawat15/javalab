@@ -18,13 +18,13 @@ public class CreateList {
         Node newNode = new Node(data);  
         //Checks if the list is empty.  
         if(head == null) {  
-             //If list is empty, both head and tail would point to new node.  
+              
             head = newNode;  
             tail = newNode;  
             newNode.next = head;  
         }  
         else {  
-            //tail will point to new node.  
+            
             tail.next = newNode;  
             
             tail = newNode;  
@@ -40,24 +40,4 @@ public class CreateList {
             System.out.println("List is empty");  
         }  
         else {  
-            System.out.println("Nodes of the circular linked list: ");  
-             do{  
-                  
-                System.out.print(" "+ current.data);  
-                current = current.next;  
-            }while(current != head);  
-            System.out.println();  
-        }  
-    }  
-  
-    public static void main(String[] args) {  
-        CreateList cl = new CreateList();  
-        //Adds data to the list  
-        cl.add(1);  
-        cl.add(2);  
-        cl.add(3);  
-        cl.add(4);  
-        
-        cl.display();  
-    }  
-}  
+           
