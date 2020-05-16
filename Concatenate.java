@@ -7,6 +7,13 @@ public static void main(String[] args) {
 
         int length = array1.length + array2.length;
 
-       
+        int[] result = new int[length];
+        int pos = 0;
+        for (int element : array1) {
+            result[pos] = element;
+            pos++;
+        }
+
+      
 
     
