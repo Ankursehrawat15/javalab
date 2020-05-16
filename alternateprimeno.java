@@ -1,7 +1,7 @@
 class JavaExample  
 { 
 
-    //method for checking prime number
+   
     static int checkPrime(int num) 
     { 
 	int i, flag = 0; 
@@ -21,14 +21,10 @@ class JavaExample
 	   return 0; 
     } 
 
-    //Method for printing alternate prime numbers
+   
     static void printAltPrime(int n) 
     { 
-	/* When the temp value is odd then we are
-	 * not printing the prime number and when it is
-	 * even then we are printing it, this way we are
-	 * displaying alternate prime numbers
-	 */
+	
 	int temp = 2; 
 
 	for(int num = 2; num <= n-1; num++) 
