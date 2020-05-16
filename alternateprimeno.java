@@ -14,9 +14,7 @@ class JavaExample
 	   } 
 	} 
 
-	/* If flag value is 0 then the given number num
-	 * is a prime number else it is not a prime number
-	 */
+	
 	if(flag == 0) 
 	   return 1; 
 	else
