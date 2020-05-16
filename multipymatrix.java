@@ -35,5 +35,26 @@ System.out.println("Enter elements of first matrix");
           second[c][d] = in.nextInt();
  
       
+      for (c = 0; c < m; c++) {
+        for (d = 0; d < q; d++) {
+          for (k = 0; k < p; k++)
+            sum = sum + first[c][k]*second[k][d];
+ 
+          multiply[c][d] = sum;
+          sum = 0;
+        }
+      }
+ 
+      System.out.println("Product of the matrices:");
+ 
+      for (c = 0; c < m; c++) {
+        for (d = 0; d < q; d++)
+          System.out.print(multiply[c][d]+"\t");
+ 
+        System.out.print("\n");
+      }
+    }
+  }
+}
  
     
