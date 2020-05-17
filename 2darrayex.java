@@ -66,7 +66,7 @@ public class Life {
         for(int r = row - 1; r <= row + 1; r++)
             for(int c = col - 1; c <= col + 1; c++)
                 if( inbounds(world, r, c) && world[r][c] )
-                    num++;
+                    num++
 
         return num;
     }
