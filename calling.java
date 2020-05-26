@@ -7,7 +7,7 @@ public class CallingMethodsInSameClass
 	}
 
 	public static void printOne() {
-		System.out.println("Hello World its java");
+		System.out.println("Hello World  java");
 	}
 
 	public static void printTwo() {
