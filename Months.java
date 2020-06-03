@@ -36,6 +36,6 @@ System.out.println("November");
 else if(n==12)
 System.out.println("December");
 else 
-System.out.println("There are only 12 months :)");
+System.out.println("There are only 12 months");
 
 }}
